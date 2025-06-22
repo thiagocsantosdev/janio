@@ -3,7 +3,7 @@ export default defineNuxtConfig({
   compatibilityDate: '2025-05-15',
 
   // Estilo global
-  css: ['@/assets/css/reset.css'],
+  css: ['@/assets/css/global.css'],
 
   // Devtools ativado
   devtools: { enabled: true },

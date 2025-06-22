@@ -1,15 +1,20 @@
 <template>
-    <button >
+    <button :style="{ backgroundColor : `var(${backgroundColor})` }">
        {{text }}
     </button>
 </template>
 
 <script setup>
 
-const Props = defineProps({
+const {text, backgroundColor} = defineProps({
         text :{
             type:String,
             default:'Erro'
+        },
+
+       backgroundColor:{
+            type:String,
+            default:'Black'
         }
     })
 
@@ -21,7 +26,7 @@ const Props = defineProps({
 
 
 button{
-    background-color: green;
+    
     border-radius: 8px;
     padding: 12px 40px;
     width: 250px;

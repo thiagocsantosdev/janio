@@ -4,7 +4,7 @@
 
         <UIInput type="password"  placeholder="Senha"/>
 
-        <UIButton text="Entrar"></UIButton>
+        <UIButton text="Entrar" backgroundColor="--dark-green"></UIButton>
 
         <UILink text="Esqueci minha senha" />
         

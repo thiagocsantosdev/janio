@@ -11,3 +11,10 @@
     height: 100%;
   }
   
+
+
+  :root{
+    --black: #1f1f1f;
+    --blue: #1ff1f1;
+    --dark-green: #0e4d06;
+}
